@@ -1,0 +1,120 @@
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int ora, minute;
+        cin >> ora >> minute;
+        int nr = minute % 10;
+
+        // Verificare minute
+
+        if (minute == 00)
+        {
+            if (ora == 1)
+                cout << "eins ";
+            else if (ora == 2)
+                cout << "zwei ";
+            else if (ora == 3)
+                cout << "drei ";
+            else if (ora == 4)
+                cout << "vier ";
+            else if (ora == 5)
+                cout << "funf ";
+            else if (ora == 6)
+                cout << "sechs ";
+            else if (ora == 7)
+                cout << "sieben ";
+            else if (ora == 8)
+                cout << "acht "; 
+            else if (ora == 9)
+                cout << "neun ";
+            else if (ora == 10)
+                cout << "zehn ";
+            else if (ora == 11)
+                cout << "elf ";
+            else if (ora == 12)
+                cout << "zwolf ";
+
+            cout << "uhr ";
+            return 0;
+        }
+
+        if (minute == 16)
+            cout << "sech";
+       else if(minute == 17)
+            cout << "sieb";
+
+            else  if (nr == 1)
+                cout << "eins";
+            else if (nr == 2)
+                cout << "zwei";
+            else if (nr == 3)
+                cout << "drei";
+            else if (nr == 4)
+                cout << "vier";
+            else if (nr == 5)
+                cout << "funf";
+            else if (nr == 6)
+                cout << "sechs";
+            else if (nr == 7)
+                cout << "sieben";
+            else if (nr == 8)
+                cout << "acht";
+            else if (nr == 9)
+                cout << "neun";
+
+            if (minute < 20 && minute > 12)
+                cout << "zehn ";
+            else if (minute < 30 && minute > 20)
+                cout << "undzwanzig ";
+            else if (minute < 40 && minute > 30)
+                cout << "und­dreißig ";
+            else if (minute < 50 && minute > 40)
+                cout << "und­vierzig ";
+            else if (minute < 60 && minute > 50)
+                cout << "und­fünfzig ";
+            
+            else if (minute == 10)
+                cout << "zehn ";
+            else if (minute == 20)
+                cout << "zwanzig ";
+            else if (minute == 30)
+                cout << "dreißig ";
+            else if (minute == 40)
+                cout << "vierzig ";
+            else if (minute == 50)
+                cout << "fünfzig ";
+         
+           
+         
+        if (minute > 30)
+            cout << "vor ";
+        else cout << "nach ";
+
+             // Verificare ora
+
+        if (ora == 1)
+           cout << "eins";
+        else if (ora == 2)
+            cout << "zwei";
+        else if (ora == 3)
+            cout << "drei";
+        else if (ora == 4)
+            cout << "vier";
+        else if (ora == 5)
+            cout << "funf";
+        else if (ora == 6)
+            cout << "sechs";
+        else if (ora == 7)
+            cout << "sieben";
+        else if (ora == 8)
+            cout << "acht";
+        else if (ora == 9)
+            cout << "neun";
+        else if (ora == 10)
+            cout << "zehn";
+        else if (ora == 11)
+            cout << "elf";
+        else if (ora == 12)
+            cout << "zwolf";
+        }
