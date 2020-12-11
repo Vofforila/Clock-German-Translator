@@ -88,8 +88,8 @@
            
          
         if (minute > 30)
-            cout << "vor ";
-        else cout << "nach ";
+            cout << "minuten vor ";
+        else cout << "minuten nach ";
 
              // Verificare ora
 
@@ -117,4 +117,6 @@
             cout << "elf";
         else if (ora == 12)
             cout << "zwolf";
+            
+            return main();
         }
